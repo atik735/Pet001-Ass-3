@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category 1</title>
+
+    <!-- google font cdn -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+
+
+    <!-- tailwind daisyUi cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        .adlam{
+  font-family: "ADLaM Display", serif;
+        }
+        .sora {
+            font-family: "Sora", serif;
+        }
+    </style>
+    
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                bgcolor:'#FFF9F4',
+                btncolor:'#FFDC26',
+                tdog:'#FFF9F4',
+                categ:'#F9DF8A'
+              }
+            }
+          }
+        }
+      </script>
+      
+</head>
+<body class="sora">
+    
+<header>
+    <!-- nav section start  -->
+
+    <section class="navsection bg-bgcolor max-lg:border-b max-lg:border-black">
+    <div class="navbar w-11/12 mx-auto max-lg:justify-between">
+        <div class="navbar-start gap-2">
+            <img src="c1-assets/logo-header.png" alt="foot-of cat">
+
+            <h2 class="hidden lg:flex text-2xl">Browse<span class="text-btncolor">4</span>Pets</h2>
+
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-lg">
+            <li><a>Find a pet</a></li>
+            <li><a>Breeds</a></li>
+            <li><a>Contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="navbar-end hidden gap-5 lg:flex">
+
+            <button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                </svg>
+            </button>
+
+            <button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </button>
+            
+            <button class="btn btn-outline border-btncolor font-normal hover:bg-btncolor ">Primary</button>
+            <button class="btn btn-active font-normal bg-btncolor">Secondary</button>
+
+        </div>
+
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+      </div>
+
+    </section>
+
+    <!-- nav section end  -->
+
+    <!-- banner section  -->
+
+    <section class="banner">
+
+
+    </section>
+
+    <!-- banner section end  -->
+</header>
+
+</body>
+</html>
